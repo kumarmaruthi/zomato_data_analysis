@@ -1,6 +1,7 @@
 name: myenv
 channels:
-  - defaults
+  - conda-forge
+  - pytorch
 dependencies:
   - autoflake
   - black
