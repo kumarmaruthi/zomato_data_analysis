@@ -2,7 +2,23 @@ name: myenv
 channels:
   - defaults
 dependencies:
-  - numpy
+  - autoflake
+  - black
   - pandas
-  - scikit-learn
+  - cudatoolkit
   - flake8
+  - isort
+  - jupyter
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+    - torchtestcase
+    - -e .  # install package in development mode
+    - umnn
+  - pytest
+  - python
+  - pytorch
+  - pyyaml
+  - tensorboard
+  - tqdm
